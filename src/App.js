@@ -1,6 +1,15 @@
+import Header from "./Header";
+import H1 from "./H1";
+import List from "./List";
+
+
 function App() {
   return (
-    <h1>Hello, world!</h1>
+    <div>
+      <Header />
+      <H1 />
+      <List />
+    </div>
   );
 }
 
