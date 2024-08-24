@@ -1,14 +1,16 @@
-import Header from "./Header";
-import H1 from "./H1";
-import List from "./List";
+import Info from "./Info";
+import About from "./About";
+import Interests from "./Interests";
+import Footer from "./Footer";
 
 
 function App() {
   return (
     <div>
-      <Header />
-      <H1 />
-      <List />
+      <Info />
+      <About />
+      <Interests />
+      <Footer />
     </div>
   );
 }

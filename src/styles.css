@@ -1,18 +1,36 @@
-#nav-items {
-    list-style: none;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+}
+
+#Footer > button {
+    width:100px;
+    height:100px;
+}
+
+#Footer > button > img {
+    width: 80px;
+    height: 80px;
+}
+
+#info-buttons {
     display: flex;
 }
 
-#nav-items > li {
-    padding: 10px;
-}
-
-#nav {
+#info-buttons > button, #info-buttons > span {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    padding: 10px 20px
 }
 
-#img {
-    width: 60px;
+#info-buttons > button > img {
+    width: 80px;
+    height: 80px;
 }
